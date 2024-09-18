@@ -280,6 +280,20 @@
         });
       </script>
 
+          <!-- Script para o efeito ao rolar o scroll -->
+  <script>
+    $(document).ready(function() {
+      // Ao rolar a página
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#navbar').addClass('shrink');
+        } else {
+          $('#navbar').removeClass('shrink');
+        }
+      });
+    });
+  </script>
+
        <!-- Script para mostrar/esconder e controlar o botão -->
   <script>
     // Referência ao botão
