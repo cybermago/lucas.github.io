@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Jonatã Mendes">
+    <meta name="Description" content="">
+    <meta name="Keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas - Arquiteto</title>
+  <!-- Bootstrap CSS -->
+  <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome para o ícone do WhatsApp -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+
+    <header>
+        <!-- Foto de Perfil -->
+        <div class="profile-container">
+          <img src="img/logo.png" alt="Foto de Perfil" class="profile-img">
+        </div>
+
+      <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Emerson Lucas - Arquiteto</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Carrossel de Imagens com Swiper -->
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide" style="background-image: url('img/arq2.png');">
+          <div class="overlay"></div>
+          <div class="content">
+            <h1>Projetos que Inspiram</h1>
+            <p>Transformando ideias em realidade arquitetônica</p>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide" style="background-image: url('img/2.jpeg');">
+          <div class="overlay"></div>
+          <div class="content">
+            <h1>Design de Interiores</h1>
+            <p>Estética e funcionalidade unidas</p>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="swiper-slide" style="background-image: url('img/arq4.png');">
+          <div class="overlay"></div>
+          <div class="content">
+            <h1>Soluções Modernas</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Seções -->
+  <section id="sobre" class="container py-5" style="width: 100%;">
+    <h2 class="text-center mb-4">Sobre Mim</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img/perfil.png" alt="Sobre Mim" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <p>Sou um arquiteto apaixonado por criar espaços inovadores e funcionais. Com uma sólida formação acadêmica e experiência prática, busco transformar ideias em realidades tangíveis, sempre com atenção aos detalhes e ao contexto.</p>
+        <p>Meu objetivo é entregar projetos que não apenas atendam às necessidades dos clientes, mas que também superem suas expectativas, criando ambientes inspiradores e sustentáveis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Serviços</h2>
+      <div class="row">
+        
+        <div class="col-md-4">
+          <div class="card mb-3 service-box text-center" style="max-width: 18rem;margin: auto;background-color: #D9CAB3;">
+            <div class="container text-center my-5">
+                <img src="img/consultoria-estrategica.gif" alt="Descrição do GIF" class="img-fluid rounded">
+              </div>
+            <div class="card-header"><h3>Consultoria</h3></div>
+            <p class="card-text">Ofereço consultoria especializada para ajudar a definir e otimizar seus projetos arquitetônicos, garantindo a melhor solução para suas necessidades.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="card mb-3 service-box text-center" style="max-width: 18rem;margin: auto;background-color: #D9CAB3;">
+            <div class="container text-center my-5">
+                <img src="img/prateleiras.gif" alt="Descrição do GIF" class="img-fluid rounded">
+              </div>
+            <div class="card-header"><h3>Design de Interiores</h3></div>
+            <p class="card-text">Crio ambientes internos que combinam funcionalidade e estética, respeitando o estilo e as preferências dos clientes.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-3 service-box text-center" style="max-width: 18rem;margin: auto;background-color: #D9CAB3;">
+            <div class="container text-center my-5">
+                <img src="img/arte-urbana.gif" alt="Descrição do GIF" class="img-fluid rounded">
+              </div>
+                <div class="card-header"><h3>Planejamento Urbano</h3></div>
+                <p class="card-text">Desenvolvo projetos de planejamento urbano que consideram o desenvolvimento sustentável e a integração com o ambiente urbano.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos" class="container py-5" >
+    <h2 class="text-center mb-4">Projetos</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card text-center project-box" style="margin: auto;">
+            <div class="container my-5">
+                <img src="img/12.jpeg" alt="Projeto 1" class="img-fluid rounded" style="margin: auto;">
+                <h4 class="mt-2">Projeto Residencial</h4>
+                <p>Uma casa moderna com ênfase em conforto e eficiência energética.</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card project-box" style="margin: auto;">
+            <div class="container my-5">
+                <img src="img/15.jpeg" alt="Projeto 2" class="img-fluid rounded" style="margin: auto;">
+                <h4 class="mt-2">Edifício Comercial</h4>
+                <p>Um edifício corporativo projetado para maximizar a funcionalidade e a estética.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card project-box" style="margin: auto;">
+            <div class="container my-5">
+                <img src="img/14.jpeg" alt="Projeto 3" class="img-fluid rounded" style="margin: auto;">
+                <h4 class="mt-2">Espaço Público</h4>
+                <p>Projeto de um espaço público que promove a interação e o bem-estar da comunidade.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Seção de Testemunhas -->
+<section id="testemunhas" class="container py-5" style="width: 100%;">
+  <h2 class="text-center mb-4">Testemunhas</h2>
+  <div class="row">
+    <div class="col-md-4 text-center">
+      <div class="stars mb-2">
+        <i class="fas fa-star" style="color: gold;"></i>
+        <i class="fas fa-star" style="color: gold;"></i>
+        <i class="fas fa-star" style="color: gold;"></i>
+        <i class="fas fa-star" style="color: gold;"></i>
+        <i class="fas fa-star" style="color: gold;"></i>
+      </div>
+      <h5>Nome da Pessoa 1</h5>
+      <p>Testemunho da pessoa 1. É um testemunho positivo, falando sobre a experiência com seus serviços.</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <div class="stars mb-2">
+        <i class="fas fa-star" style="color: gold;"></i>
+        <i class="fas fa-star" style="color: gold;"></i>
+        <i class="fas fa-star" style="color: gold;"></i>
+        <i class="fas fa-star" style="color: gold;"></i>
+        <i class="fas fa-star" style="color: gold;"></i>
+      </div>
+      <h5>Nome da Pessoa 2</h5>
+      <p>Testemunho da pessoa 2. Eles explicam como seu serviço foi útil e recomendam.</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <div class="stars mb-2">
+        <i class="fas fa-star" style="color: gold;"></i>
+        <i class="fas fa-star" style="color: gold;"></i>
+        <i class="fas fa-star" style="color: gold;"></i>
+        <i class="fas fa-star" style="color: gold;"></i>
+        <i class="fas fa-star" style="color: gold;"></i>
+      </div>
+      <h5>Nome da Pessoa 3</h5>
+      <p>Testemunho da pessoa 3, elogiando seu trabalho e experiência geral.</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="contato" class="container py-5">
+    <h2 class="text-center mb-4">Contato</h2>
+    <form action="https://formspree.io/f/xanwzgkj"
+    method="POST">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" name="name" class="form-control" id="nome" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" name="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="telefone" class="form-label">Telefone</label>
+            <input type="tel" class="form-control" id="telefone">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Mensagem</label>
+            <textarea name="message" class="form-control" id="mensagem" rows="5" required></textarea>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-center text-white py-4">
+        <div class="container">
+          <p class="mb-0">© 2024 Emerson Lucas. Todos os direitos reservados.</p>
+          <p class="mb-0">Desenvolvido por <a href="#" class="text-white text-decoration-none">Jonatã Mendes</a></p>
+        </div>
+      </footer>
+
+        <!-- Botão Voltar ao Topo -->
+  <button id="backToTopBtn" class="btn btn-primary btn-lg" title="Voltar ao Topo">
+    ↑
+  </button>
+
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="https://wa.me/+5586999444144" target="_blank" id="whatsappButton">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+    <script src="assets/jquery/dist/jquery.min.js"></script>
+    <script src="assets/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+          loop: true,
+          autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+          },
+          effect: 'fade',  // Transição suave de fade
+          fadeEffect: {
+            crossFade: true
+          },
+          speed: 800, // Velocidade das transições
+        });
+      </script>
+
+       <!-- Script para mostrar/esconder e controlar o botão -->
+  <script>
+    // Referência ao botão
+    const backToTopBtn = document.getElementById("backToTopBtn");
+
+    // Mostrar o botão quando o usuário rolar para baixo
+    window.onscroll = function() {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    };
+
+    // Quando o botão for clicado, volte ao topo da página
+    backToTopBtn.onclick = function() {
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    };
+  </script>
+</body>
+</html>

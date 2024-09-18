@@ -1,0 +1,193 @@
+   body{
+    background-color: #F2F2F2;
+    color: #333333;
+   }
+   /* Estilo geral do cabeçalho */
+    header {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+      }
+  
+      /* Navbar */
+      .navbar {
+        z-index: 10;
+      }
+  
+      .navbar {
+        background-color: #D9CAB3;
+        opacity: 80%;
+        backdrop-filter: blur(5px);
+      }
+  
+      .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #333333;
+      }
+  
+      .navbar-nav .nav-link {
+        color: #1B4965;
+        font-size: 1.2rem;
+      }
+  
+      /* Swiper Slider */
+      .swiper {
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        position: relative;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+      }
+  
+      .content {
+        z-index: 2;
+        text-align: center;
+        color: #fff;
+      }
+  
+      h1 {
+        font-size: 3rem;
+        font-weight: 700;
+      }
+  
+      /* Foto de Perfil */
+  .profile-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+  
+  .profile-img {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #fff; /* Borda branca para destacar a imagem */
+    object-fit: cover;
+  }
+
+
+
+  /* Seção Sobre Mim */
+#sobre {
+  background-color: #F2F2F2;
+  width: 100%;
+  color: #333333;
+}
+
+#sobre img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Seção Serviços */
+#servicos {
+  background-color: #D9CAB3;
+}
+
+.service-box {
+  padding: 20px;
+  border: 5px solid #A8B5A2;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.service-box:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Seção Projetos */
+#projetos .project-box {
+  margin-bottom: 30px;
+  background-color: #D9CAB3;
+  border:5px solid #A8B5A2;
+}
+
+#projetos img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Seção Testemunhas */
+#testemunhas .testimonial-box {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#testemunhas h5 {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Seção Contato */
+#contato form {
+  background-color: #D9CAB3;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contato .form-label {
+  font-weight: bold;
+}
+
+#contato .btn-primary {
+  background-color: #1B4965;
+  border-color: #007bff;
+}
+
+
+ /* Estilizando o botão para ficar fixo no canto inferior direito */
+ #backToTopBtn {
+  position: fixed;
+  background-color: #1B4965;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 100;
+}
+
+    /* Estilo do botão flutuante */
+    #whatsappButton {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 1000;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50px;
+      padding: 15px;
+      font-size: 24px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    #whatsappButton:hover {
+      background-color: #1ebe56;
+      text-decoration: none;
+    }
