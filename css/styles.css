@@ -22,7 +22,7 @@
       }
   
       .navbar-brand {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-weight: bold;
         color: #333333;
         flex: 1;
@@ -33,7 +33,7 @@
       /* Ajusta o tamanho da navbar-brand em telas pequenas */
 @media (max-width: 768px) {
     .navbar-brand {
-        font-size: 1.25rem; /* Ajuste o valor conforme necessário */
+        font-size: 1.2rem; /* Ajuste o valor conforme necessário */
     }
 }
 
